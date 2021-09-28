@@ -1,0 +1,15 @@
+{% load static %}
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza houria</title>
+    <link rel="stylesheet" href="{% static 'maim/style.css'%}">
+</head>
+<body>
+    <div calss="centered">
+        <img src="{% static 'main/images/main_logo.png'%}">
+        <a href="{% url 'menu:index' %}">Voir le menu</a>
+    </div>
+</body>
+</html>
